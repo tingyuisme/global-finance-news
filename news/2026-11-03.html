@@ -10,7 +10,6 @@
     <div class="dashboard-container">
         <header class="main-header">
             <div class="header-text">
-                <!-- 取消黃色 highlight 標籤 -->
                 <h1>世界在轉，股市在看 📈</h1>
                 <p>這裡收錄每日關鍵的全球財經新聞。每一則都經過中立客觀的整理與摘要，幫助你釐清總經、美股、亞太與財報動態——挑一份，開始吧！</p>
             </div>
@@ -25,6 +24,7 @@
         </div>
 
         <main class="news-grid">
+            <!-- 總經區塊：已修正為正確的 hk.investing.com 連結 -->
             <section class="news-section">
                 <span class="card-category">總經 📊</span>
                 <h2>總經指標速覽</h2>
@@ -38,8 +38,10 @@
                     <span class="tag">#原油</span>
                     <span class="tag">#美元</span>
                 </div>
+                <a href="https://hk.investing.com/economic-calendar/" target="_blank" class="btn-action">查看總經數據 →</a>
             </section>
 
+            <!-- 美股區塊 -->
             <section class="news-section">
                 <span class="card-category">美股 🇺🇸</span>
                 <h2>聯準會會議前夕觀望氣氛濃厚</h2>
@@ -50,11 +52,11 @@
                         <span class="tag">#聯準會</span>
                         <span class="tag">#標普500</span>
                     </div>
-                    <!-- 加入真實的 Yahoo Finance 連結，並設定 target="_blank" 以開啟新分頁 -->
-                    <a href="https://finance.yahoo.com/markets/stocks/" target="_blank" class="btn-action">觀看分析 →</a>
+                    <a href="https://finance.yahoo.com/quote/%5EGSPC/" target="_blank" class="btn-action">觀看分析 →</a>
                 </div>
             </section>
 
+            <!-- 亞太區塊 -->
             <section class="news-section">
                 <span class="card-category">亞太 🌏</span>
                 <h2>日圓匯率變動影響出口商表現</h2>
@@ -65,23 +67,22 @@
                         <span class="tag">#日經225</span>
                         <span class="tag">#台股加權</span>
                     </div>
-                    <!-- 加入真實的 Bloomberg Asia 連結，並設定開啟新分頁 -->
-                    <a href="https://www.bloomberg.com/asia" target="_blank" class="btn-action">深入了解 →</a>
+                    <a href="https://tw.stock.yahoo.com/world-indices" target="_blank" class="btn-action">深入了解 →</a>
                 </div>
             </section>
 
+            <!-- 財報區塊 -->
             <section class="news-section">
                 <span class="card-category">財報 💼</span>
-                <h2>GlobalTech (代號：GLT) Q3 財報表現</h2>
+                <h2>Apple (代號：AAPL) 最新季度財報</h2>
                 <div class="news-item">
-                    <p>該公司第三季營收達 210 億美元，年增 12%，略高於市場預期的 205 億美元。淨利率由去年同期的 18% 提升至 19.5%。管理層指出，雲端基礎設施需求持續成長，但供應鏈成本壓力仍需關注。</p>
+                    <p>蘋果公司公布最新季度財報，營收達 895 億美元，略高於市場預期。其中服務收入創下歷史新高，有效彌補了部分硬體產品銷售放緩的影響。執行長庫克表示，對未來的 AI 發展與假日購物季充滿信心。</p>
                     <div class="card-tags">
-                        <span class="tag">#GlobalTech</span>
-                        <span class="tag">#第三季財報</span>
-                        <span class="tag">#雲端基礎設施</span>
+                        <span class="tag">#Apple</span>
+                        <span class="tag">#最新財報</span>
+                        <span class="tag">#服務營收</span>
                     </div>
-                    <!-- 加入真實的華爾街日報市場數據連結，並設定開啟新分頁 -->
-                    <a href="https://www.wsj.com/market-data" target="_blank" class="btn-action">查看財報 →</a>
+                    <a href="https://finance.yahoo.com/quote/AAPL/financials" target="_blank" class="btn-action">查看財報 →</a>
                 </div>
             </section>
         </main>
